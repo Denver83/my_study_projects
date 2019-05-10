@@ -11,6 +11,13 @@ body{
 	margin: 0 auto;
 	padding: 0;
 }
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
 .btn {
     background-color: #fb565a;
     border-radius: 3px;
